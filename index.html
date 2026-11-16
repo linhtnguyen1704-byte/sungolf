@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sun Golf – Golf 3D (gôn 3D) trong nhà ở Thụy Khuê, Tây Hồ, Hà Nội</title>
+<meta name="description" content="Phòng tập golf 3D trong nhà tại TTTM Sun Plaza, 69B Thụy Khuê, Tây Hồ. Hai line tập và một phòng VIP riêng, máy đo Foresight, hơn 2.500 sân gôn trên GSPro, huấn luyện viên 1 kèm 1. Mở cửa 8:00–21:00 hằng ngày.">
+<meta name="theme-color" content="#0C2028">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Sun Golf – Golf 3D trong nhà ở Thụy Khuê">
+<meta property="og:description" content="Hai line tập, một phòng VIP riêng, máy đo Foresight, hơn 2.500 sân gôn trên GSPro. Mở cửa 8:00–21:00 hằng ngày.">
+<meta property="og:image" content="https://linhtnguyen1704-byte.github.io/sungolf/assets/og.jpg">
+<meta property="og:url" content="https://linhtnguyen1704-byte.github.io/sungolf/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Sun Golf",
+  "description": "Phòng tập golf 3D (gôn 3D) trong nhà với máy đo Foresight GC3, GCQuad và phần mềm GSPro.",
+  "url": "https://linhtnguyen1704-byte.github.io/sungolf/",
+  "image": "https://linhtnguyen1704-byte.github.io/sungolf/assets/og.jpg",
+  "telephone": "+84787286969",
+  "priceRange": "190.000đ–350.000đ/giờ",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Tòa SP1, TTTM Sun Plaza, 69B Đ. Thụy Khuê",
+    "addressLocality": "Tây Hồ",
+    "addressRegion": "Hà Nội",
+    "addressCountry": "VN"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "08:00",
+    "closes": "21:00"
+  },
+  "hasMap": "https://www.google.com/maps?cid=6667830966026092433",
+  "sameAs": ["https://www.facebook.com/sungolf.tk", "https://www.instagram.com/sungolf.tk"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Chưa từng chơi gôn thì có chơi được không?", "acceptedAnswer": {"@type": "Answer", "text": "Được. Sun Golf có huấn luyện viên dạy 1 kèm 1 cho người mới bắt đầu."}},
+    {"@type": "Question", "name": "Có cần đặt lịch trước không?", "acceptedAnswer": {"@type": "Answer", "text": "Nên gọi hoặc nhắn Zalo trước để giữ line, nhất là buổi tối và cuối tuần."}},
+    {"@type": "Question", "name": "Thẻ tập dùng trong bao lâu?", "acceptedAnswer": {"@type": "Answer", "text": "Thẻ 10 giờ dùng trong 1 tháng, thẻ 30 giờ trong 3 tháng, thẻ 60 giờ trong 7 tháng."}},
+    {"@type": "Question", "name": "Sun Golf nằm ở đâu trong Sun Plaza?", "acceptedAnswer": {"@type": "Answer", "text": "Tầng B1, tòa SP1, TTTM Sun Plaza, 69B Thụy Khuê, Tây Hồ, Hà Nội."}}
+  ]
+}
+</script>
+<style>
+:root{
+  --dem:#0C2028;          /* xanh đêm của vách phòng tập */
+  --dem-2:#12303A;
+  --dem-3:#1B4350;
+  --nang:#F59B23;         /* cam mặt trời của logo */
+  --nang-nhat:#FFD8A1;
+  --giay:#F4EEE3;
+  --mo:rgba(244,238,227,.72);
+  --ke:rgba(244,238,227,.16);
+  --co:#58B36B;
+  --rong:1180px;
+  --le:clamp(20px,5vw,56px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--dem);color:var(--giay);font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-size:1.125rem;line-height:1.62;font-stretch:100%;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3,p,figure,table{margin:0}
+h1,h2,h3{font-weight:300;font-stretch:122%;line-height:1.14;letter-spacing:-.012em;text-wrap:balance}
+h2{font-size:clamp(1.9rem,4.4vw,3.25rem)}
+h3{font-size:clamp(1.45rem,2.6vw,2rem);font-weight:400}
+:focus-visible{outline:2px solid var(--nang-nhat);outline-offset:3px;border-radius:4px}
+.khung{width:100%;max-width:calc(var(--rong) + 2*var(--le));margin-inline:auto;padding-inline:var(--le)}
+.bo-qua{position:absolute;left:-999px;top:8px;background:var(--giay);color:var(--dem);padding:10px 16px;border-radius:6px;z-index:60}
+.bo-qua:focus{left:8px}
+
+/* Nút */
+.nut{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;border:1px solid transparent;font:inherit;font-weight:600;font-stretch:108%;text-decoration:none;cursor:pointer;transition:background-color .18s,border-color .18s,color .18s}
+.nut-chinh{background:var(--nang);color:#1A1205}
+.nut-chinh:hover{background:var(--nang-nhat)}
+.nut-vien{border-color:rgba(244,238,227,.5);color:var(--giay);background:rgba(12,32,40,.28)}
+.nut-vien:hover{border-color:var(--giay);background:rgba(244,238,227,.1)}
+.nut-nho{min-height:42px;padding:0 18px;font-size:.95rem}
+.nut svg{width:20px;height:20px;flex:none}
+
+/* Thanh đầu trang */
+.dau{position:fixed;inset:0 0 auto 0;z-index:40;transition:background-color .25s,box-shadow .25s}
+.dau-trong{display:flex;align-items:center;gap:28px;height:72px}
+.dau.cuon{background:rgba(12,32,40,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--ke)}
+.thuong-hieu{display:flex;align-items:center;gap:12px;text-decoration:none;font-stretch:125%;font-weight:500;font-size:1.15rem;letter-spacing:.02em}
+.thuong-hieu img{width:38px;height:38px}
+.muc{display:flex;gap:26px;margin-left:auto;font-size:1rem}
+.muc a{text-decoration:none;color:var(--mo);padding:8px 0}
+.muc a:hover{color:var(--giay)}
+.dau-phai{display:flex;align-items:center;gap:14px}
+.ngon-ngu{background:none;border:0;color:var(--mo);font:inherit;font-size:.95rem;cursor:pointer;padding:8px 4px;text-decoration:underline;text-underline-offset:4px}
+.ngon-ngu:hover{color:var(--giay)}
+
+/* Mở đầu: hoàng hôn, mặt trời là logo, đường bóng bay */
+.mo-dau{position:relative;min-height:100svh;display:grid;grid-template-rows:auto minmax(72px,1fr) auto;overflow:hidden;isolation:isolate;--dat:250px;
+  background:linear-gradient(180deg,#07171E 0%,#0E2A36 34%,#274352 56%,#6E5347 72%,#C9772F 86%,#F4AD4E 100%)}
+.canh{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.quang{position:absolute;right:clamp(-6vw,6vw,12vw);bottom:calc(var(--dat) - 30vmin);width:110vmin;height:110vmin;transform:translateX(28%);background:radial-gradient(closest-side,rgba(255,196,110,.5),rgba(245,155,35,.16) 46%,transparent 72%)}
+.mat-troi{position:absolute;right:clamp(4vw,9vw,150px);bottom:var(--dat);width:clamp(230px,36vw,520px);aspect-ratio:1;transform:translateY(44%);
+  background:linear-gradient(180deg,#FFE2B0 0%,#FFC368 38%,#F59B23 78%);
+  -webkit-mask:url(assets/logo.svg) center/contain no-repeat;mask:url(assets/logo.svg) center/contain no-repeat}
+.doi{position:absolute;left:0;right:0;bottom:0;width:100%;height:calc(var(--dat) + 96px);display:block}
+.hat{position:absolute;inset:0;opacity:.2;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)' opacity='.9'/%3E%3C/svg%3E")}
+.duong-bay{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.duong-bay .vet{fill:none;stroke:var(--giay);stroke-width:2;stroke-linecap:round}
+.duong-bay .vet-cu{fill:none;stroke:var(--giay);stroke-width:1.25;opacity:.2}
+.duong-bay .bong{fill:#fff}
+.duong-bay .co-moc{stroke:var(--giay);stroke-width:1.5;fill:none}
+.duong-bay .la-co{fill:var(--nang)}
+
+.mo-dau-chu{padding-top:clamp(100px,13vh,140px);position:relative}
+.mo-dau-chu > *{max-width:min(100%,580px)}
+.trang-thai{display:inline-flex;align-items:center;gap:10px;font-size:1rem;color:var(--mo);min-height:1.6em}
+.trang-thai::before{content:"";width:9px;height:9px;border-radius:50%;background:#8C9AA0}
+.trang-thai.mo::before{background:var(--co);box-shadow:0 0 0 4px rgba(88,179,107,.22)}
+h1{font-size:clamp(2.55rem,5.4vw,4.7rem);font-stretch:125%;font-weight:300;line-height:1.07;margin-top:16px}
+.dan{margin-top:22px;font-size:clamp(1.1rem,1.4vw,1.2rem);color:rgba(244,238,227,.86);max-width:34em}
+.hang-nut{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+
+.ban{position:relative;padding-bottom:clamp(22px,4vh,40px);padding-top:18px}
+.ban-trong{display:grid;grid-template-columns:auto 1fr;gap:18px 44px;align-items:end;border-top:1px solid var(--ke);padding-top:20px}
+.ban-trai{display:flex;flex-direction:column;gap:12px}
+.ban-nhan{font-size:1rem;color:var(--mo)}
+.chon-gay{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.gay{display:inline-flex;border:1px solid rgba(244,238,227,.34);border-radius:999px;padding:3px;background:rgba(7,23,30,.5)}
+.gay label{position:relative;cursor:pointer}
+.gay input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.gay span{display:block;padding:9px 16px;border-radius:999px;font-size:.98rem;color:var(--mo);white-space:nowrap}
+.gay input:checked + span{background:var(--giay);color:var(--dem)}
+.gay input:focus-visible + span{outline:2px solid var(--nang-nhat);outline-offset:2px}
+.so-lieu{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px 28px;margin:0}
+.so-lieu div{display:flex;flex-direction:column-reverse}
+.so-lieu dt{font-size:.95rem;color:var(--mo)}
+.so-lieu dd{margin:0;font-stretch:118%;font-weight:500;font-size:clamp(1.5rem,3.3vw,2.7rem);line-height:1.1;font-variant-numeric:tabular-nums;white-space:nowrap}
+.so-lieu small{font-size:.42em;font-weight:400;font-stretch:100%;color:var(--mo);margin-left:.3em}
+.ban-ghi{grid-column:1/-1;font-size:.9rem;color:rgba(244,238,227,.6);margin-top:-4px}
+
+@media (prefers-reduced-motion:no-preference){
+  .mo-dau-chu > *{animation:len .9s cubic-bezier(.2,.7,.2,1) both}
+  .mo-dau-chu > :nth-child(2){animation-delay:.08s}
+  .mo-dau-chu > :nth-child(3){animation-delay:.18s}
+  .mo-dau-chu > :nth-child(4){animation-delay:.28s}
+  .mat-troi{animation:moc 1.6s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes len{from{opacity:0;transform:translateY(18px)}}
+  @keyframes moc{from{transform:translateY(62%);opacity:.5}}
+}
+
+/* Các phần nội dung */
+.phan{padding-block:clamp(72px,11vw,150px)}
+.phan-sang{background:var(--dem-2)}
+.mo-phan{max-width:22em}
+.dan-phan{margin-top:18px;color:var(--mo);max-width:36em}
+.anh{position:relative}
+.anh img{width:100%;border-radius:6px;box-shadow:0 0 0 1px rgba(244,238,227,.1),0 30px 60px -30px rgba(0,0,0,.7)}
+.anh figcaption{margin-top:12px;font-size:.92rem;color:rgba(244,238,227,.62)}
+
+.phong{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(24px,4vw,56px);align-items:center;margin-top:clamp(40px,6vw,80px)}
+.phong + .phong{margin-top:clamp(56px,9vw,120px)}
+.phong-line .anh{grid-column:1/8}
+.phong-line .phong-chu{grid-column:8/13}
+.phong-vip .phong-chu{grid-column:2/7}
+.phong-vip .anh{grid-column:8/13}
+.phong-chu p{margin-top:16px;color:var(--mo)}
+.phong-chu .gia-tu{margin-top:22px;color:var(--nang-nhat);font-stretch:112%;font-weight:500;font-size:1.2rem}
+
+.hai-cot{display:grid;grid-template-columns:5fr 6fr;gap:clamp(28px,5vw,72px);align-items:center}
+.cap-anh{display:grid;grid-template-columns:7fr 5fr;gap:clamp(16px,3vw,36px);align-items:end;margin-top:clamp(36px,5vw,64px)}
+
+/* Bảng giá */
+.gia{display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,6vw,90px);margin-top:clamp(36px,5vw,64px)}
+.gia table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.gia caption{text-align:left;font-stretch:118%;font-weight:500;font-size:1.25rem;padding-bottom:14px}
+.gia th,.gia td{text-align:left;padding:15px 0;border-top:1px solid var(--ke);vertical-align:baseline}
+.gia thead th{font-weight:400;font-size:.92rem;color:var(--mo);border-top:0;padding-top:0}
+.gia tbody th{font-weight:400;padding-right:14px}
+.gia td{padding-left:14px;white-space:nowrap}
+.gia .so{color:var(--nang-nhat);font-stretch:112%;font-weight:500}
+.gia .phu{color:var(--mo);font-size:.95rem}
+.gia-ghi{margin-top:28px;color:var(--mo);font-size:1rem}
+
+/* Học gôn */
+.hoc{display:grid;grid-template-columns:6fr 5fr;gap:clamp(28px,6vw,90px);align-items:start}
+.hoc p + p{margin-top:16px}
+.hoc .nut{margin-top:28px}
+.hoc-lon{font-stretch:122%;font-weight:300;font-size:clamp(1.5rem,3vw,2.3rem);line-height:1.25;color:var(--nang-nhat)}
+
+/* Hỏi đáp */
+.hoi{margin-top:clamp(28px,4vw,48px);max-width:820px}
+.hoi details{border-top:1px solid var(--ke)}
+.hoi details:last-child{border-bottom:1px solid var(--ke)}
+.hoi summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:20px 0;font-size:1.15rem;font-weight:500}
+.hoi summary::-webkit-details-marker{display:none}
+.hoi summary::after{content:"";flex:none;width:12px;height:12px;border-right:2px solid var(--nang);border-bottom:2px solid var(--nang);transform:rotate(45deg) translate(-3px,-3px);transition:transform .2s}
+.hoi details[open] summary::after{transform:rotate(-135deg) translate(-3px,-3px)}
+.hoi p{padding:0 0 22px;color:var(--mo);max-width:40em}
+
+/* Đường đi */
+.duong{display:grid;grid-template-columns:5fr 7fr;gap:clamp(28px,5vw,72px);margin-top:clamp(36px,5vw,64px);align-items:start}
+.dia-chi{font-style:normal;font-size:1.15rem}
+.dia-chi strong{display:block;font-stretch:118%;font-weight:500;font-size:1.3rem;margin-bottom:6px}
+.thong-tin{display:grid;gap:22px}
+.thong-tin dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 22px}
+.thong-tin dt{color:var(--mo)}
+.thong-tin dd{margin:0}
+.thong-tin a{text-underline-offset:4px}
+.ban-do{width:100%;aspect-ratio:16/11;border:0;border-radius:6px;filter:saturate(.85) contrast(1.02);box-shadow:0 0 0 1px rgba(244,238,227,.1)}
+.duong .anh{margin-top:26px}
+
+.moi{padding-block:clamp(48px,7vw,84px);border-top:1px solid var(--ke)}
+.moi-trong{display:flex;flex-wrap:wrap;gap:20px 40px;align-items:center;justify-content:space-between}
+.moi p{font-stretch:118%;font-weight:300;font-size:clamp(1.3rem,2.4vw,1.8rem);line-height:1.3;max-width:24em}
+
+.chan{border-top:1px solid var(--ke);padding-block:44px 56px;color:var(--mo);font-size:.98rem}
+section[id]{scroll-margin-top:28px}
+.chan-trong{display:flex;flex-wrap:wrap;gap:22px 48px;justify-content:space-between;align-items:flex-start}
+.chan a{text-underline-offset:4px}
+.chan ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 24px}
+
+/* Thanh hành động trên điện thoại */
+.day{display:none}
+
+@media (max-width:980px){
+  .muc{display:none}
+  .dau-phai{margin-left:auto}
+  .phong,.hai-cot,.gia,.hoc,.duong{grid-template-columns:1fr}
+  .phong-line .anh,.phong-line .phong-chu,.phong-vip .phong-chu,.phong-vip .anh{grid-column:1/-1}
+  .phong-vip .anh{order:-1;max-width:520px}
+  .ban-trong{grid-template-columns:1fr}
+}
+@media (max-width:720px){
+  body{font-size:1.0625rem}
+  .dau-trong{height:62px;gap:12px}
+  .dau .nut-nho{display:none}
+  .mo-dau{grid-template-rows:auto minmax(250px,1fr) auto}
+  .mo-dau-chu{padding-top:96px}
+  .mat-troi{right:5vw;width:min(62vw,300px)}
+  .hang-nut .nut{flex:1 1 150px}
+  .so-lieu{gap:6px 12px}
+  .so-lieu dd{font-size:1.4rem}
+  .so-lieu dd small{display:block;margin:2px 0 0;font-size:.8rem}
+  .so-lieu dt{font-size:.8rem;line-height:1.3}
+  .gay span{padding:9px 13px}
+  .cap-anh{grid-template-columns:1fr}
+  .gia td{padding-left:10px}
+  .gia .an-nho{display:none}
+  .chan{padding-bottom:120px}
+  .day{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;inset:auto 0 0 0;z-index:50;background:rgba(9,25,32,.96);backdrop-filter:blur(10px);border-top:1px solid var(--ke);padding-bottom:env(safe-area-inset-bottom)}
+  .day a{display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 4px 9px;text-decoration:none;font-size:.82rem;font-weight:600}
+  .day a + a{border-left:1px solid var(--ke)}
+  .day svg{width:22px;height:22px}
+  .day .noi{color:var(--nang)}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="bo-qua" href="#noi-dung" data-en="Skip to content">Tới nội dung chính</a>
+
+<header class="dau" id="dau">
+  <div class="khung dau-trong">
+    <a class="thuong-hieu" href="#top" aria-label="Sun Golf, về đầu trang"><img src="assets/logo.svg" alt="" width="38" height="38"><span>Sun Golf</span></a>
+    <nav class="muc" aria-label="Mục chính">
+      <a href="#cho-choi" data-en="Rooms">Chỗ chơi</a>
+      <a href="#bang-gia" data-en="Prices">Bảng giá</a>
+      <a href="#hoc-gon" data-en="Lessons">Học gôn</a>
+      <a href="#hoi-dap" data-en="FAQ">Hỏi đáp</a>
+      <a href="#duong-di" data-en="Find us">Đường đi</a>
+    </nav>
+    <div class="dau-phai">
+      <button class="ngon-ngu" id="ngon-ngu" type="button" lang="en">English</button>
+      <a class="nut nut-chinh nut-nho" href="tel:+84787286969" data-en="Call 078 728 6969">Gọi 078 728 6969</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="mo-dau" id="mo-dau">
+  <div class="canh" aria-hidden="true">
+    <div class="quang"></div>
+    <div class="mat-troi"></div>
+    <svg class="doi" viewBox="0 0 1440 340" preserveAspectRatio="none">
+      <path fill="#1B4147" d="M0 120C210 78 400 132 640 104C900 74 1090 30 1440 84V340H0Z"/>
+      <path fill="#12323A" d="M0 168C250 118 520 186 820 148C1060 118 1260 160 1440 132V340H0Z"/>
+      <path fill="#0A1E26" d="M0 214C300 176 700 226 1010 196C1210 178 1340 204 1440 192V340H0Z"/>
+    </svg>
+    <div class="hat"></div>
+    <svg class="duong-bay" id="duong-bay"></svg>
+  </div>
+
+  <div class="khung mo-dau-chu">
+    <p class="trang-thai" id="trang-thai" aria-live="polite"></p>
+    <h1 data-en="Indoor golf simulators on Thụy Khuê">Golf 3D trong nhà ở Thụy Khuê</h1>
+    <p class="dan" data-en="Two practice bays and one private VIP room inside Sun Plaza, Tây Hồ. Foresight launch monitors and more than 2,500 courses on GSPro. Rain or shine, 8 am to 9 pm every day.">Hai line tập và một phòng VIP riêng ngay trong TTTM Sun Plaza, Tây Hồ. Máy đo Foresight, hơn 2.500 sân gôn trên GSPro. Nắng hay mưa đều chơi được, từ 8 giờ sáng đến 9 giờ tối mỗi ngày.</p>
+    <div class="hang-nut">
+      <a class="nut nut-chinh" href="tel:+84787286969" data-en="Call to book">
+        Gọi đặt lịch</a>
+      <a class="nut nut-vien" href="https://zalo.me/0787286969" data-en-href="https://m.me/sungolf.tk" target="_blank" rel="noopener" data-en="Message us">Nhắn Zalo</a>
+    </div>
+  </div>
+
+  <div aria-hidden="true"></div>
+
+  <div class="khung ban">
+    <div class="ban-trong">
+      <div class="ban-trai">
+        <span class="ban-nhan" id="nhan-gay" data-en="Try a shot. Pick a club:">Đánh thử một cú. Chọn gậy:</span>
+        <div class="chon-gay">
+          <div class="gay" role="radiogroup" aria-labelledby="nhan-gay">
+            <label><input type="radio" name="gay" value="driver" checked><span>Driver</span></label>
+            <label><input type="radio" name="gay" value="sat7"><span data-en="7 iron">Gậy sắt 7</span></label>
+            <label><input type="radio" name="gay" value="wedge"><span>Wedge</span></label>
+          </div>
+          <button class="nut nut-chinh nut-nho" id="danh" type="button" data-en="Hit">Đánh</button>
+        </div>
+      </div>
+      <dl class="so-lieu" aria-live="off">
+        <div><dt data-en="Ball speed">Tốc độ bóng</dt><dd><span id="sl-tocdo">0</span><small>mph</small></dd></div>
+        <div><dt data-en="Launch angle">Góc phóng</dt><dd><span id="sl-goc">0</span><small data-en="deg">độ</small></dd></div>
+        <div><dt data-en="Spin">Độ xoáy</dt><dd><span id="sl-xoay">0</span><small>rpm</small></dd></div>
+        <div><dt data-en="Carry">Bay xa</dt><dd><span id="sl-xa">0</span><small>yard</small></dd></div>
+      </dl>
+      <p class="ban-ghi" data-en="Sample numbers. At Sun Golf the Foresight monitor measures every real shot you hit.">Số liệu minh hoạ. Ở Sun Golf, máy Foresight đo từng cú đánh thật của bạn.</p>
+    </div>
+  </div>
+</section>
+
+<div id="noi-dung"></div>
+
+<section class="phan" id="cho-choi">
+  <div class="khung">
+    <h2 class="mo-phan" data-en="Two practice bays, one private room">Hai line tập, một phòng VIP</h2>
+
+    <div class="phong phong-line">
+      <figure class="anh">
+        <img src="assets/line.jpg" width="1280" height="960" loading="lazy" alt="Line tập ở Sun Golf: màn chiếu lớn đang hiện một green trên GSPro, bóng nằm trên thảm trước màn" data-en-alt="A practice bay at Sun Golf with a large screen showing a green on GSPro">
+        <figcaption data-en="A practice bay running a course on GSPro">Line tập đang mở một sân trên GSPro</figcaption>
+      </figure>
+      <div class="phong-chu">
+        <h3 data-en="Practice bays">Line tập</h3>
+        <p data-en="Two bays side by side, each with a large projection screen and a Foresight GC3 launch monitor. Good for regular practice, on your own or taking turns with a friend.">Hai line nằm cạnh nhau, mỗi line có màn chiếu lớn và máy đo Foresight GC3. Hợp để tập đều hằng tuần, đi một mình hay rủ thêm một người bạn thay nhau đánh.</p>
+        <p class="gia-tu" data-en="From 190,000 VND per hour">Từ 190.000đ một giờ</p>
+      </div>
+    </div>
+
+    <div class="phong phong-vip">
+      <div class="phong-chu">
+        <h3 data-en="Private VIP room">Phòng VIP riêng</h3>
+        <p data-en="A room of your own for friends, colleagues or family, with a Foresight GCQuad, the four-camera launch monitor. Everyone takes turns without sharing the space with other guests.">Một phòng riêng cho nhóm bạn, đồng nghiệp hoặc gia đình, dùng máy đo Foresight GCQuad bốn camera. Cả nhóm thay nhau đánh mà không phải chung chỗ với khách khác.</p>
+        <p class="gia-tu" data-en="From 300,000 VND per hour">Từ 300.000đ một giờ</p>
+      </div>
+      <figure class="anh">
+        <img src="assets/vip.jpg" width="960" height="1280" loading="lazy" alt="Phòng tập riêng: thảm đánh, giá gậy và màn chiếu đang hiện hố 18 của một sân gôn" data-en-alt="A private room with hitting mat, club rack and a screen showing the 18th hole">
+        <figcaption data-en="Hitting mat, clubs and screen ready to play">Thảm đánh, gậy và màn chiếu sẵn sàng</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="phan phan-sang" id="cong-nghe">
+  <div class="khung hai-cot">
+    <div>
+      <h2 data-en="Hit it, then read the numbers">Đánh xong là biết ngay</h2>
+      <p class="dan-phan" data-en="The Foresight monitor records ball speed, launch angle, spin and carry for every shot, so you can see what changed from one swing to the next.">Máy đo Foresight ghi lại tốc độ bóng, góc phóng, độ xoáy và quãng đường bay của từng cú đánh, nên bạn thấy ngay cú này khác cú trước ở đâu.</p>
+      <p class="dan-phan" data-en="GSPro rebuilds more than 2,500 golf courses in 3D. Warm up on the virtual range, or play a full 18 holes on a famous course.">Phần mềm GSPro dựng lại hơn 2.500 sân gôn bằng đồ hoạ 3D. Bạn có thể khởi động trên bãi tập ảo, hoặc đánh trọn 18 hố ở một sân nổi tiếng.</p>
+    </div>
+    <figure class="anh">
+      <img src="assets/hai-line.jpg" width="1280" height="960" loading="lazy" alt="Hai khách đang đánh ở hai line cạnh nhau, màn chiếu hiện bãi tập và bảng số liệu Foresight" data-en-alt="Two guests hitting in adjacent bays with Foresight range and data on screen">
+      <figcaption data-en="Both bays on the Foresight range, with shot data on the right screen">Hai line đang chạy bãi tập Foresight, số liệu hiện ở màn bên phải</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="phan" id="ban-be">
+  <div class="khung">
+    <h2 class="mo-phan" data-en="Bring friends. The seats are right behind the bay">Đi cùng bạn bè, ngồi ngay sau line</h2>
+    <p class="dan-phan" data-en="Tables and chairs sit just behind each bay, so whoever is not hitting can watch and chat. Drinks are served on site.">Sau mỗi line có bàn ghế để người chưa tới lượt ngồi xem và trò chuyện. Quán có phục vụ đồ uống.</p>
+    <div class="cap-anh">
+      <figure class="anh">
+        <img src="assets/nhom-ban.jpg" width="1280" height="960" loading="lazy" alt="Một nhóm bạn ở Sun Golf: một người đang vào bóng, những người khác đứng và ngồi xem" data-en-alt="A group of friends at Sun Golf, one addressing the ball while others watch">
+      </figure>
+      <figure class="anh">
+        <img src="assets/khu-ngoi.jpg" width="960" height="1030" loading="lazy" alt="Hai khách ngồi ghế sau line, trên bàn có đồ uống, màn chiếu phía trước" data-en-alt="Two guests seated behind the bay with drinks on the table">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="phan phan-sang" id="bang-gia">
+  <div class="khung">
+    <h2 data-en="Prices for 2026">Bảng giá 2026</h2>
+    <p class="dan-phan" data-en="Charged per hour. The same price applies at any time of day.">Giá tính theo giờ, áp dụng mọi khung giờ trong ngày.</p>
+    <div class="gia">
+      <table>
+        <caption data-en="Pay by the hour">Chơi theo giờ</caption>
+        <thead><tr><th scope="col"><span class="an-nho" data-en="Where">Chỗ chơi</span></th><th scope="col" data-en="Mon to Fri">Thứ 2 đến thứ 6</th><th scope="col" data-en="Sat, Sun">Thứ 7, chủ nhật</th></tr></thead>
+        <tbody>
+          <tr><th scope="row" data-en="Practice bay">Line</th><td class="so">190.000đ</td><td class="so">250.000đ</td></tr>
+          <tr><th scope="row" data-en="VIP room">Phòng VIP</th><td class="so">300.000đ</td><td class="so">350.000đ</td></tr>
+        </tbody>
+      </table>
+      <table>
+        <caption data-en="Prepaid hour cards">Thẻ tập</caption>
+        <thead><tr><th scope="col" data-en="Card">Loại thẻ</th><th scope="col" data-en="Price">Giá</th><th scope="col" data-en="Valid for">Hạn dùng</th><th scope="col" class="an-nho" data-en="Per hour">Mỗi giờ</th></tr></thead>
+        <tbody>
+          <tr><th scope="row" data-en="10 hours, bay">10 giờ Line</th><td class="so">1.900.000đ</td><td data-en="1 month">1 tháng</td><td class="phu an-nho">190.000đ</td></tr>
+          <tr><th scope="row" data-en="30 hours, bay">30 giờ Line</th><td class="so">5.000.000đ</td><td data-en="3 months">3 tháng</td><td class="phu an-nho" data-en="about 167,000đ">khoảng 167.000đ</td></tr>
+          <tr><th scope="row" data-en="60 hours, bay">60 giờ Line</th><td class="so">10.000.000đ</td><td data-en="7 months">7 tháng</td><td class="phu an-nho" data-en="about 167,000đ">khoảng 167.000đ</td></tr>
+          <tr><th scope="row" data-en="10 hours, VIP">10 giờ VIP</th><td class="so">2.800.000đ</td><td data-en="1 month">1 tháng</td><td class="phu an-nho">280.000đ</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gia-ghi" data-en="Buy a card at the front desk, or message us with any question about prices.">Mua thẻ tại quầy, hoặc nhắn Zalo nếu bạn cần hỏi thêm về giá.</p>
+  </div>
+</section>
+
+<section class="phan" id="hoc-gon">
+  <div class="khung hoc">
+    <div>
+      <h2 data-en="One-to-one golf lessons">Học gôn 1 kèm 1</h2>
+      <p class="dan-phan" data-en="You can start even if you have never held a club. A coach works with you alone each session, from grip and stance to the full swing, and uses the monitor's numbers to show your progress week by week.">Chưa cầm gậy bao giờ cũng học được. Huấn luyện viên kèm riêng từng buổi, từ cách cầm gậy, thế đứng đến cú swing, và dùng số liệu máy đo để bạn thấy mình tiến bộ qua từng tuần.</p>
+      <a class="nut nut-vien" href="https://zalo.me/0787286969" data-en-href="https://m.me/sungolf.tk" target="_blank" rel="noopener" data-en="Ask about lesson times and fees">Hỏi lịch học và học phí qua Zalo</a>
+    </div>
+    <p class="hoc-lon" data-en="Indoors, so heat and rain never cancel practice. A gentle way to stay active for older players too.">Tập trong nhà nên không ngại nắng mưa. Hợp cả với người lớn tuổi muốn vận động nhẹ nhàng.</p>
+  </div>
+</section>
+
+<section class="phan phan-sang" id="hoi-dap">
+  <div class="khung">
+    <h2 data-en="Common questions">Câu hỏi thường gặp</h2>
+    <div class="hoi">
+      <details>
+        <summary data-en="Can I play if I have never played golf?">Chưa từng chơi gôn thì có chơi được không?</summary>
+        <p data-en="Yes. Sun Golf has a coach who teaches beginners one to one.">Được. Sun Golf có huấn luyện viên dạy 1 kèm 1 cho người mới bắt đầu.</p>
+      </details>
+      <details>
+        <summary data-en="Do I need to book ahead?">Có cần đặt lịch trước không?</summary>
+        <p data-en="It is best to call or message first so we can hold a bay for you, especially in the evening and at weekends.">Nên gọi hoặc nhắn Zalo trước để giữ line, nhất là buổi tối và cuối tuần.</p>
+      </details>
+      <details>
+        <summary data-en="What should a group book?">Đi theo nhóm thì nên đặt gì?</summary>
+        <p data-en="Book the private VIP room so the whole group can play and sit together.">Nên đặt phòng VIP riêng để cả nhóm cùng chơi và ngồi với nhau.</p>
+      </details>
+      <details>
+        <summary data-en="How long is an hour card valid?">Thẻ tập dùng trong bao lâu?</summary>
+        <p data-en="The 10-hour card is valid for 1 month, the 30-hour card for 3 months and the 60-hour card for 7 months.">Thẻ 10 giờ dùng trong 1 tháng, thẻ 30 giờ trong 3 tháng, thẻ 60 giờ trong 7 tháng.</p>
+      </details>
+      <details>
+        <summary data-en="Are drinks available?">Quán có đồ uống không?</summary>
+        <p data-en="Yes, drinks are served on site.">Có, quán phục vụ đồ uống tại chỗ.</p>
+      </details>
+      <details>
+        <summary data-en="Where exactly is Sun Golf inside Sun Plaza?">Sun Golf nằm ở đâu trong Sun Plaza?</summary>
+        <p data-en="Floor B1 of tower SP1, Sun Plaza, 69B Thụy Khuê, Tây Hồ. Parking is convenient.">Tầng B1, tòa SP1, TTTM Sun Plaza, 69B Thụy Khuê, Tây Hồ. Đỗ xe thuận tiện.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="phan" id="duong-di">
+  <div class="khung">
+    <h2 data-en="Finding Sun Golf">Đường đến Sun Golf</h2>
+    <div class="duong">
+      <div class="thong-tin">
+        <address class="dia-chi">
+          <strong>Sun Golf</strong>
+          <span data-en="Tower SP1, Sun Plaza, floor B1">Tòa SP1, TTTM Sun Plaza, tầng B1</span><br>
+          <span data-en="69B Thụy Khuê, Tây Hồ, Hanoi">69B Đ. Thụy Khuê, Tây Hồ, Hà Nội</span>
+        </address>
+        <dl>
+          <dt data-en="Open">Mở cửa</dt><dd data-en="8:00–21:00, every day">8:00–21:00, tất cả các ngày</dd>
+          <dt data-en="Phone">Điện thoại</dt><dd><a href="tel:+84787286969">0787 286 969</a></dd>
+          <dt>Zalo</dt><dd><a href="https://zalo.me/0787286969" target="_blank" rel="noopener">078 728 6969</a></dd>
+        </dl>
+        <div class="hang-nut" style="margin-top:6px">
+          <a class="nut nut-chinh" href="https://www.google.com/maps?cid=6667830966026092433" target="_blank" rel="noopener" data-en="Directions on Google Maps">Chỉ đường trên Google Maps</a>
+        </div>
+        <figure class="anh">
+          <img src="assets/mat-tien.jpg" width="1280" height="960" loading="lazy" alt="Mặt tiền Sun Golf: biển chữ SUN GOLF sáng đèn trên tường, bên cạnh là cửa kính" data-en-alt="Sun Golf's entrance: an illuminated SUN GOLF sign beside glass doors">
+          <figcaption data-en="Look for this sign on floor B1 of tower SP1">Thấy biển này là tới: tầng B1, tòa SP1</figcaption>
+        </figure>
+      </div>
+      <iframe class="ban-do" title="Bản đồ đường đến Sun Golf" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?cid=6667830966026092433&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="moi">
+  <div class="khung moi-trong">
+    <p data-en="Played at Sun Golf already? A few lines on Google help other golfers find us.">Bạn đã chơi ở Sun Golf? Vài dòng nhận xét trên Google giúp người khác tìm thấy quán.</p>
+    <a class="nut nut-vien" href="https://g.page/r/CZG_VZjv5IhcEBM/review" target="_blank" rel="noopener" data-en="Write a Google review">Viết đánh giá trên Google</a>
+  </div>
+</section>
+</main>
+
+<footer class="chan">
+  <div class="khung chan-trong">
+    <div>
+      <strong style="color:var(--giay)">Sun Golf</strong><br>
+      <span data-en="Tower SP1, Sun Plaza, 69B Thụy Khuê, Tây Hồ, Hanoi">Tòa SP1, TTTM Sun Plaza, 69B Đ. Thụy Khuê, Tây Hồ, Hà Nội</span><br>
+      <a href="tel:+84787286969">0787 286 969</a>
+    </div>
+    <ul>
+      <li><a href="https://www.facebook.com/sungolf.tk" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a href="https://www.instagram.com/sungolf.tk" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://zalo.me/0787286969" target="_blank" rel="noopener">Zalo</a></li>
+      <li><a href="https://www.google.com/maps?cid=6667830966026092433" target="_blank" rel="noopener">Google Maps</a></li>
+    </ul>
+  </div>
+</footer>
+
+<nav class="day" aria-label="Liên hệ nhanh">
+  <a class="noi" href="tel:+84787286969"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h3.5l1.7 4.2-2.2 1.5a11 11 0 0 0 6.3 6.3l1.5-2.2L20 15.5V19a2 2 0 0 1-2.2 2A16 16 0 0 1 3 6.2 2 2 0 0 1 5 4Z"/></svg><span data-en="Call">Gọi</span></a>
+  <a href="https://zalo.me/0787286969" data-en-href="https://m.me/sungolf.tk" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H11l-4.5 4V16A2.5 2.5 0 0 1 4 13.5Z"/></svg><span data-en="Message">Zalo</span></a>
+  <a href="https://www.google.com/maps?cid=6667830966026092433" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span data-en="Directions">Chỉ đường</span></a>
+</nav>
+
+<script>
+(function(){
+  var doc = document, goc = doc.documentElement;
+  var giam = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var ngon = 'vi';
+
+  /* Thanh đầu trang đổi nền khi cuộn */
+  var dau = doc.getElementById('dau');
+  function cuon(){ dau.classList.toggle('cuon', window.scrollY > 24); }
+  window.addEventListener('scroll', cuon, {passive:true}); cuon();
+
+  /* Đang mở cửa hay đã đóng (giờ Hà Nội, 8:00–21:00 hằng ngày) */
+  var tt = doc.getElementById('trang-thai');
+  function trangThai(){
+    var p = new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Ho_Chi_Minh',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+    var gio = +p.find(function(x){return x.type==='hour'}).value % 24, phut = +p.find(function(x){return x.type==='minute'}).value;
+    var m = gio*60 + phut, mo = m >= 480 && m < 1260;
+    tt.classList.toggle('mo', mo);
+    if (ngon === 'en') tt.textContent = mo ? 'Open now until 21:00' : (m < 480 ? 'Closed now, opens at 8:00 today' : 'Closed now, opens at 8:00 tomorrow');
+    else tt.textContent = mo ? 'Đang mở cửa đến 21:00' : (m < 480 ? 'Đã đóng cửa, mở lại lúc 8:00 hôm nay' : 'Đã đóng cửa, mở lại lúc 8:00 sáng mai');
+  }
+  trangThai(); setInterval(trangThai, 60000);
+
+  /* Đổi ngôn ngữ Việt / Anh */
+  var chu = [].slice.call(doc.querySelectorAll('[data-en]'));
+  chu.forEach(function(e){ e.dataset.vi = e.innerHTML; });
+  var duongDan = [].slice.call(doc.querySelectorAll('[data-en-href]'));
+  duongDan.forEach(function(e){ e.dataset.viHref = e.getAttribute('href'); });
+  var moTa = [].slice.call(doc.querySelectorAll('[data-en-alt]'));
+  moTa.forEach(function(e){ e.dataset.viAlt = e.getAttribute('alt'); });
+  var nutNgon = doc.getElementById('ngon-ngu');
+  function datNgon(l){
+    ngon = l; goc.lang = l;
+    chu.forEach(function(e){ e.innerHTML = l === 'en' ? e.dataset.en : e.dataset.vi; });
+    duongDan.forEach(function(e){ e.setAttribute('href', l === 'en' ? e.dataset.enHref : e.dataset.viHref); });
+    moTa.forEach(function(e){ e.setAttribute('alt', l === 'en' ? e.dataset.enAlt : e.dataset.viAlt); });
+    nutNgon.textContent = l === 'en' ? 'Tiếng Việt' : 'English';
+    nutNgon.lang = l === 'en' ? 'vi' : 'en';
+    trangThai();
+    try { localStorage.setItem('sg-ngon', l); } catch(e){}
+  }
+  nutNgon.addEventListener('click', function(){ datNgon(ngon === 'vi' ? 'en' : 'vi'); });
+  try {
+    var hoi = (location.search.match(/[?&]lang=(vi|en)/) || [])[1];
+    var luu = hoi || localStorage.getItem('sg-ngon');
+    if (luu === 'en' || (!luu && !/^vi/i.test(navigator.language || 'vi'))) datNgon('en');
+  } catch(e){}
+
+  /* Cú đánh thử: đường bóng bay qua mặt trời, số liệu chạy theo */
+  var NS = 'http://www.w3.org/2000/svg';
+  var khung = doc.getElementById('mo-dau'), svg = doc.getElementById('duong-bay');
+  var ban = khung.querySelector('.ban'), chuDau = khung.querySelector('.mo-dau-chu');
+  var o = { tocdo: doc.getElementById('sl-tocdo'), goc: doc.getElementById('sl-goc'), xoay: doc.getElementById('sl-xoay'), xa: doc.getElementById('sl-xa') };
+  var GAY = {
+    driver: { tocdo:[136,152], goc:[10.5,14], xoay:[2200,2900], xa:[215,248] },
+    sat7:   { tocdo:[104,118], goc:[16,20],   xoay:[6000,7200], xa:[140,166] },
+    wedge:  { tocdo:[78,92],   goc:[26,32],   xoay:[8600,10200], xa:[84,112] }
+  };
+  var W, H, datY, teeX, maxX, tranY, dangBay = 0, vetCu = [];
+  function el(ten, thuoc){ var e = doc.createElementNS(NS, ten); for (var k in thuoc) e.setAttribute(k, thuoc[k]); return e; }
+  function ngau(a){ return a[0] + Math.random() * (a[1] - a[0]); }
+  function so(v, le){ return v.toLocaleString(ngon === 'en' ? 'en-US' : 'vi-VN', {minimumFractionDigits: le, maximumFractionDigits: le}); }
+  function do_(){
+    W = khung.clientWidth; H = khung.clientHeight;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    datY = ban.offsetTop - 18;
+    khung.style.setProperty('--dat', (H - datY) + 'px');
+    var rong = W >= 981;
+    teeX = rong ? Math.max(W * 0.5, Math.min(W, 1292) * 0.5 + 60) : W * 0.07;
+    maxX = W * 0.96;
+    tranY = rong ? 104 : chuDau.offsetTop + chuDau.offsetHeight + 14;
+  }
+  function veDuong(c){
+    var d = (maxX - teeX) * (0.3 + 0.7 * c.xa / 250);
+    var cao = Math.min(H * (0.2 + c.goc * 0.0085), datY - tranY);
+    return { d: 'M' + teeX + ' ' + datY + 'C' + (teeX + d * 0.3) + ' ' + (datY - cao * 1.36) + ' ' + (teeX + d * 0.8) + ' ' + (datY - cao * 1.22) + ' ' + (teeX + d) + ' ' + datY, x: teeX + d };
+  }
+  function ghi(c, t){
+    o.tocdo.textContent = so(c.tocdo * t, 1); o.goc.textContent = so(c.goc * t, 1);
+    o.xoay.textContent = so(Math.round(c.xoay * t / 10) * 10, 0); o.xa.textContent = so(Math.round(c.xa * t), 0);
+  }
+  function danh(){
+    do_();
+    var ma = (doc.querySelector('input[name=gay]:checked') || {}).value || 'driver', g = GAY[ma];
+    var c = { tocdo: ngau(g.tocdo), goc: ngau(g.goc), xoay: ngau(g.xoay), xa: ngau(g.xa) };
+    var lan = ++dangBay, hinh = veDuong(c);
+    [].slice.call(svg.querySelectorAll('.vet,.bong,.co-moc,.la-co,.gon')).forEach(function(n){
+      if (n.classList.contains('vet')) { n.setAttribute('class', 'vet-cu'); n.removeAttribute('stroke-dasharray'); n.removeAttribute('stroke-dashoffset'); vetCu.push(n); }
+      else n.remove();
+    });
+    while (vetCu.length > 3) vetCu.shift().remove();
+    var vet = el('path', { 'class': 'vet', d: hinh.d }); svg.appendChild(vet);
+    var L = vet.getTotalLength();
+    var bong = el('circle', { 'class': 'bong', r: 5 }); svg.appendChild(bong);
+    function ket(){
+      vet.removeAttribute('stroke-dasharray'); vet.removeAttribute('stroke-dashoffset');
+      bong.setAttribute('cx', hinh.x); bong.setAttribute('cy', datY); bong.setAttribute('r', 3.5);
+      svg.appendChild(el('path', { 'class': 'co-moc', d: 'M' + (hinh.x + 10) + ' ' + datY + 'v-30' }));
+      svg.appendChild(el('path', { 'class': 'la-co', d: 'M' + (hinh.x + 10) + ' ' + (datY - 30) + 'l15 5.5l-15 5.5Z' }));
+      ghi(c, 1);
+    }
+    if (giam) { ket(); return; }
+    vet.setAttribute('stroke-dasharray', L); vet.setAttribute('stroke-dashoffset', L);
+    var dai = 1500 + c.xa * 3.2, t0 = performance.now();
+    (function buoc(now){
+      if (lan !== dangBay) return;
+      var t = Math.min(1, (now - t0) / dai), f = 1 - Math.pow(1 - t, 1.55), p = vet.getPointAtLength(L * f);
+      vet.setAttribute('stroke-dashoffset', L * (1 - f));
+      bong.setAttribute('cx', p.x); bong.setAttribute('cy', p.y); bong.setAttribute('r', 5.5 - 2 * f);
+      ghi(c, Math.min(1, Math.pow(t / 0.55, 0.6)));
+      if (t < 1) requestAnimationFrame(buoc); else ket();
+    })(t0);
+  }
+  doc.getElementById('danh').addEventListener('click', danh);
+  [].slice.call(doc.querySelectorAll('input[name=gay]')).forEach(function(r){ r.addEventListener('change', danh); });
+  var hen;
+  window.addEventListener('resize', function(){ clearTimeout(hen); hen = setTimeout(function(){ vetCu.forEach(function(n){ n.remove(); }); vetCu = []; var cu = giam; giam = true; danh(); giam = cu; }, 180); });
+  do_();
+  var batDau = function(){ setTimeout(danh, giam ? 0 : 700); };
+  if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(batDau); else window.addEventListener('load', batDau);
+})();
+</script>
+</body>
+</html>
